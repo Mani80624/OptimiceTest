@@ -1,0 +1,21 @@
+#register-course{
+    display: none;
+}
+#hide-edit{
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 500px;
+}
+@media screen and (max-width: 850px){
+    #hide-edit{
+        left: 350px;
+    }
+}
+@media screen and (max-width: 750px) {
+    #hide-edit {
+        left: 100px;
+        
+    }
+}
+
